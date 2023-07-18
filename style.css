@@ -24,11 +24,12 @@
 
 .nav-container {
     max-width: 100%;
-    min-height: 100px;
+    min-height:90px;
     margin: 0 auto;
     display: flex;
-    background: #FFF;
+    background-color: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    align-items: center;
 
 }
 
@@ -36,8 +37,9 @@
     width: 50%;
     display: flex;
     align-items: center;
-    margin-left: 240px;
-    gap: 20px;
+    font-size: 50px;
+    margin: 0 auto ;
+    justify-content: center;
 
 }
 
@@ -51,8 +53,10 @@
 .logo-container img {
     width: 86.041px;
     height: 40px;
-
-    /* object-fit: cover; */
+    width: 90px;
+    margin-right: 20px;
+    object-fit: cover;
+    
 }
 
 .items-container a {
@@ -62,7 +66,7 @@
     font-weight: 500;
 }
 
-.logo-container h3 {
+.logo-container p {
     font-size: 45px;
     font-weight: 700;
     line-height: normal;
@@ -75,7 +79,7 @@
 }
 
 .items-container button {
-    /* padding: 18px 24px; */
+   
     width: 262px;
     height: 56px;
 }
@@ -98,4 +102,39 @@
 .btn-icons img {
     width: 24px;
     height: 24px;
+}
+
+
+
+/* mobile l respronsive */
+
+@media screen and (max-width: 425px) {
+   
+    .nav-container{
+        flex-direction: column;
+    }
+    .logo-container {
+       width: 100%;
+       gap: 15px;
+    }
+    .items-container {
+       flex-direction: column;
+       width: 100%;
+    }
+    
+    .logo-container img {
+       margin: 20px 0px;
+    
+    }
+
+    .logo-container p {
+        margin: 20px 0px;
+    }
+    .items-container a {
+       margin: 10px 0px;
+    }
+    .items-container button {
+        margin: 30px 0px ;
+    }
+    
 }
