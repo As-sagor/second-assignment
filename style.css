@@ -263,14 +263,17 @@
 
 .card-container {
     display: flex;
-    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
     min-height: 300px;
     margin: 50px auto 0px;
+    gap: 10px;
 }
 
 .card-1 {
-    max-width: 25%;
-    margin-right: 10px;
+    max-width: 50%;
+    /* margin-right: 10px; */
 
 }
 
@@ -281,8 +284,8 @@
 }
 
 .card-2 {
-    max-width: 25%;
-    margin-right: 10px;
+    max-width: 50%;
+    /* margin-right: 10px; */
 }
 
 .card-2 img {
@@ -292,8 +295,8 @@
 }
 
 .card-3 {
-    max-width: 25%;
-    margin-right: 10px;
+    max-width: 50%;
+    /* margin-right: 10px; */
 }
 
 .card-3 img {
@@ -303,8 +306,7 @@
 }
 
 .card-4 {
-    max-width: 25%;
-    margin-left: 10px;
+    max-width: 50%;
 }
 
 .card-4 img {
@@ -381,8 +383,100 @@
 
 /* aniversary styles end here */
 
+/* last main part */
+
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+.icon-img {
+    width: 40px;
+}
+
+.icon-description {
+    color: #0B0223;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.icon-list {
+    display: flex;
+    align-items: center;
 
 
+
+}
+
+.icon-container :hover {
+    border: 2px solid #F948B2;
+    border-radius: 50px;
+    padding: 20px 20px;
+
+}
+
+.footer-container {
+    background: #0B0223;
+    color: white;
+    width: 100%;
+
+
+}
+
+.gamer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+
+}
+
+.gamer p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.game-story {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.copy-terms {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px;
+}
 
 
 
