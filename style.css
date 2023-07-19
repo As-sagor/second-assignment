@@ -146,7 +146,6 @@
 .banner-text {
     width: 50%;
     background-image: url('./images/Group\ 14.png');
-    border: 2px solid rgb(41, 18, 156);
 
 }
 
@@ -162,7 +161,7 @@
     font-size: 46px;
     font-weight: 600;
     text-transform: uppercase;
-    border: 2px solid yellow;
+    margin-top: 60px;
 }
 
 .banner-text h1 {
@@ -171,7 +170,6 @@
     color: transparent;
     -webkit-background-clip: text;
     margin-top: 10px;
-    border: 2px solid #FF42A5;
     text-align: center;
     font-size: 95px;
     font-weight: 800;
@@ -182,7 +180,6 @@
 .banner-img {
     width: 600px;
     height: 500px;
-    border: 2px solid black;
     /* object-fit: cover; */
 }
 
@@ -202,7 +199,6 @@
     font-size: 20px;
     font-weight: 500;
     text-transform: lowercase;
-    border: 2px solid black;
 }
 
 .banner-btn {
@@ -211,7 +207,6 @@
     margin: 20px auto 40px;
     display: flex;
     justify-content: space-around;
-    border: 2px solid black;
 }
 
 .btn-1 {
@@ -219,6 +214,7 @@
     padding: 15px 35px;
     border-radius: 48px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: none;
 
 }
 
@@ -227,7 +223,36 @@
     padding: 15px 35px;
     border-radius: 48px;
     background: #4EC5F7;
+    border: none;
 
+}
+
+/* main section styles */
+
+.online-games-container{
+   margin-top: 70px;
+    
+}
+
+.games-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.games-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.games-title-clr {
+    background-image: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
 }
 
 
@@ -289,7 +314,9 @@
     .banner-info .first-point {
         width: 60%;
         margin: 10px auto;
+        font-size: 18px;
     }
+
     .banner-text h1 {
         width: 100%;
         margin: 0 auto;
@@ -300,14 +327,33 @@
     .banner-text h3 {
         width: 100%;
         font-size: 35px;
+
     }
+
     .banner-btn {
         flex-direction: column;
         gap: 20px;
         padding: 15px 20px;
-        
+        margin: o auto;
+        margin-bottom: 20px;
+
     }
-    
+
+    /* online game video section */
+
+    .online-games-container{
+        width: 100%;
+        margin-top: 20px;
+        
+
+    }
+    .games-title{
+        font-size: 30px;
+    }
+    .games-description{
+        font-size: 15px;
+    }
+
 
 }
 
@@ -390,6 +436,22 @@
         width: 60%;
         gap: 5px;
         padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+
+    /* online game video section */
+
+    .online-games-container{
+        width: 100%;
+        margin-top: 15px;
+
+
+    }
+    .games-title{
+        font-size: 20px;
+    }
+    .games-description{
+        font-size: 10px;
     }
 
 
