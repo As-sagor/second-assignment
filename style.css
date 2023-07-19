@@ -229,9 +229,9 @@
 
 /* main section styles */
 
-.online-games-container{
-   margin-top: 70px;
-    
+.online-games-container {
+    margin-top: 70px;
+
 }
 
 .games-title {
@@ -256,11 +256,89 @@
 }
 
 
-
-
-
-
 /* banner section end here */
+
+
+/* card section start here  */
+
+.card-container {
+    display: flex;
+    border: 2px solid black;
+    max-width: 80%;
+    min-height: 300px;
+    margin: 50px auto 0px;
+}
+
+.card-1 {
+    max-width: 25%;
+    margin-right: 10px;
+    border: 2px solid red;
+}
+
+.card-1 img {
+    width: 100%;
+    border-radius: 16px;
+
+}
+.card-2 {
+    max-width: 25%;
+    margin-right: 10px;
+    border: 2px solid red;
+}
+.card-2 img {
+    width: 100%;
+    border-radius: 16px;
+
+}
+
+.card-3 {
+    max-width: 25%;
+    margin-right: 10px;
+    border: 2px solid red;
+}
+.card-3 img {
+    width: 100%;
+    border-radius: 16px;
+
+}
+
+.card-4 {
+    max-width: 25%;
+    margin-left: 10px;
+    border: 2px solid red;
+}
+.card-4 img {
+    width: 100%;
+    border-radius: 16px;
+
+}
+
+.primary-description {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+
+/* card section end  here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* tab responsive styles */
 @media screen and (min-width: 425px) and (max-width: 768px) {
@@ -341,21 +419,42 @@
 
     /* online game video section */
 
-    .online-games-container{
+    .online-games-container {
         width: 100%;
         margin-top: 20px;
-        
+
 
     }
-    .games-title{
+
+    .games-title {
         font-size: 30px;
     }
-    .games-description{
+
+    .games-description {
         font-size: 15px;
     }
 
+    /* card tab responsive */
+    .primary-description {
+        color: #534C64;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15px;
+    }
+    .card-container {
+        max-width: 100%;
+        min-height: 100px;
+        margin: 30px auto 0px;
+    }
+    
+
 
 }
+
+
+
+
+
 
 
 
@@ -441,18 +540,52 @@
 
     /* online game video section */
 
-    .online-games-container{
+    .online-games-container {
         width: 100%;
         margin-top: 15px;
 
 
     }
-    .games-title{
+
+    .games-title {
         font-size: 20px;
     }
-    .games-description{
+
+    .games-description {
         font-size: 10px;
     }
+
+    /* card responive */
+
+    .card-container {
+        flex-direction: column;
+
+    }
+    .card-1 {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .card-2 {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .card-3 {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .card-4 {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .primary-description {
+        color: #534C64;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 15px;
+    }
+
+
+
 
 
 
