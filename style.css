@@ -818,6 +818,70 @@
         bottom: -16px;
     }
 
+    .icon-container {
+       grid-template-columns: repeat(3,1fr);
+       width: 100%;
+       margin: 0 auto;
+    
+    }
+
+    .footer-container {
+       max-width: 100%;
+
+    
+    
+    }
+    
+    .gamer {
+        flex-direction: column;
+    
+    }
+    
+    .gamer p {
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .game-story {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .icon-container :hover {
+       width: 50%;
+       margin: 0 auto;
+    
+    }
+    
+    .footer-icon {
+       grid-template-columns: repeat(3,1fr);
+    }
+    
+    .terms {
+       grid-template-columns: repeat(3,1fr);
+    }
+    
+    .copy-terms {
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;;
+        font-size: 16px;
+        font-weight: 500;
+        margin: 30px;
+    }
+    
+
+
+
+
+
+    
+
 
 
 
