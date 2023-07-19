@@ -263,7 +263,6 @@
 
 .card-container {
     display: flex;
-    border: 2px solid black;
     max-width: 80%;
     min-height: 300px;
     margin: 50px auto 0px;
@@ -272,7 +271,7 @@
 .card-1 {
     max-width: 25%;
     margin-right: 10px;
-    border: 2px solid red;
+
 }
 
 .card-1 img {
@@ -280,11 +279,12 @@
     border-radius: 16px;
 
 }
+
 .card-2 {
     max-width: 25%;
     margin-right: 10px;
-    border: 2px solid red;
 }
+
 .card-2 img {
     width: 100%;
     border-radius: 16px;
@@ -294,8 +294,8 @@
 .card-3 {
     max-width: 25%;
     margin-right: 10px;
-    border: 2px solid red;
 }
+
 .card-3 img {
     width: 100%;
     border-radius: 16px;
@@ -305,8 +305,8 @@
 .card-4 {
     max-width: 25%;
     margin-left: 10px;
-    border: 2px solid red;
 }
+
 .card-4 img {
     width: 100%;
     border-radius: 16px;
@@ -322,6 +322,64 @@
 
 
 /* card section end  here  */
+
+/* aniversary styles start here */
+
+.aniversary-container {
+    max-width: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    position: relative;
+
+}
+
+.ani-text {
+    width: 50%;
+}
+
+.ani-title {
+    text-align: center;
+    line-height: 60px;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+.ani-clr {
+    color: #F948B2;
+}
+
+.ani-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.ani-img {
+    width: 50%;
+}
+
+.ani-3rd-img {
+    width: 100%;
+    height: auto;
+}
+
+.position-img img {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    right: 432px;
+    bottom: -67px;
+}
+
+/* aniversary styles end here */
 
 
 
@@ -435,18 +493,50 @@
     }
 
     /* card tab responsive */
+
+    /* .card-container {
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+
+    } */
+
     .primary-description {
         color: #534C64;
         font-size: 13px;
         font-weight: 500;
         line-height: 15px;
     }
+
     .card-container {
         max-width: 100%;
         min-height: 100px;
         margin: 30px auto 0px;
     }
-    
+
+    /* aniversary  */
+
+    .aniversary-container {
+        flex-direction: column;
+
+    }
+
+    .position-img img {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        right: 271px;
+        bottom: 13px;
+    }
+
+    .position-img img {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        right: 348px;
+        bottom: -41px;
+    }
+
+
 
 
 }
@@ -561,27 +651,77 @@
         flex-direction: column;
 
     }
+
     .card-1 {
         max-width: 100%;
         margin-bottom: 10px;
     }
+
     .card-2 {
         max-width: 100%;
         margin-bottom: 10px;
     }
+
     .card-3 {
         max-width: 100%;
         margin-bottom: 10px;
     }
+
     .card-4 {
         max-width: 100%;
         margin-bottom: 10px;
     }
+
     .primary-description {
         color: #534C64;
         font-size: 15px;
         font-weight: 500;
         line-height: 15px;
+    }
+
+    /* aniversary */
+
+    .aniversary-container {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .ani-text {
+        width: 100%;
+        /* height: auto; */
+
+    }
+
+    .ani-img {
+        width: 80%;
+        margin: 10px 0px 0px auto;
+    }
+
+    .ani-title {
+        text-align: center;
+        color: #0B0223;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 20px;
+
+    }
+
+    .ani-description {
+        color: #534C64;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+    .position-img img {
+        position: absolute;
+        height: 125px;
+        width: 125px;
+        right: 153px;
+        bottom: -16px;
     }
 
 
